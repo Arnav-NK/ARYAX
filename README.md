@@ -1,2 +1,2 @@
 # ARYAX Project
-This is the updated README combining both local and remote content.
+This is a Assignment for Aryax technologies 
