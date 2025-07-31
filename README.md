@@ -1,2 +1,2 @@
-# ARYAX
-assignment for a startup Aryax
+# ARYAX Project
+This is the updated README combining both local and remote content.

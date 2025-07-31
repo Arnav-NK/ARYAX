@@ -1,0 +1,92 @@
+/* Shared Dark Theme CSS for Signup/Login */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #c9d1d9;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #161b22;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+
+  /* Center the container */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f0f6fc;
+}
+
+form > div {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #c9d1d9;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  color: #f0f6fc;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #58a6ff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #238636;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2ea043;
+}
+
+span {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #8b949e;
+}
+
+span a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
